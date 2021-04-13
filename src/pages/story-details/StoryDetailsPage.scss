@@ -1,0 +1,31 @@
+.story-with-comments {
+  background-color: #fff;
+  padding: 16px;
+  margin: 24px 0;
+  .top-comments {
+    background: #f5f5f5;
+    padding: 16px;
+    margin: 0;
+  }
+  .comment {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+
+    &__info {
+      display: flex;
+      flex-direction: row;
+      .account-person {
+        font-size: 40px;
+        margin-right: 8px;
+      }
+      .commented-by {
+        .by {
+          font-size: 24px;
+        }
+        .date {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
